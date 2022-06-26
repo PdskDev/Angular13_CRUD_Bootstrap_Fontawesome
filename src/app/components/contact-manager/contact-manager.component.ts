@@ -11,10 +11,15 @@ export class ContactManagerComponent implements OnInit {
   public loading: boolean = false;
   public contacts: IContact[] = [] as IContact[];
   public errorMessage: string | null = null;
+  public contactId: string | null = null;
 
   constructor(private contactService: ContactService) {}
 
   ngOnInit(): void {
+    this.getAllContactFromServer();
+  }
+
+  public getAllContactFromServer() {
     this.loading = true;
     this.contactService.getAllContacts().subscribe(
       (data) => {
@@ -26,5 +31,18 @@ export class ContactManagerComponent implements OnInit {
         this.loading = false;
       }
     );
+  }
+
+  public clickDeleteContact(contactId: string | undefined) {
+    if (contactId) {
+      this.contactService.deleteContact(contactId).subscribe(
+        (data) => {
+          this.getAllContactFromServer();
+        },
+        (error) => {
+          this.errorMessage = error;
+        }
+      );
+    }
   }
 }

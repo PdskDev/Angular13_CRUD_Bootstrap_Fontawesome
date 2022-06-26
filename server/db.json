@@ -1,26 +1,6 @@
 {
   "contacts": [
     {
-      "id": "D6BNdWnHI",
-      "name": "Brad Gibson Jr",
-      "company": "UX Startup",
-      "email": "brad@gmail.com",
-      "title": "Lead ",
-      "mobile": 9876546789,
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
-      "groupId": "5"
-    },
-    {
-      "id": "TVobxeKbI",
-      "name": "Glenda Kimberley",
-      "company": "Restaurant.com",
-      "email": "kimglen@gmail.com",
-      "title": "CEO",
-      "mobile": 102030405,
-      "photo": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
-      "groupId": "6"
-    },
-    {
       "name": "Nadet LAMBI",
       "photo": "https://www.kindpng.com/picc/m/130-1300251_flat-user-icon-flat-user-icon-png-transparent.png",
       "email": "email@myemail.net",
