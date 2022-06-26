@@ -27,16 +27,16 @@
       "company": "NadetDev part of Prestadesk",
       "title": "Full stack Leader",
       "groupId": "1",
-      "mobile": 516050502,
+      "mobile": "987654321",
       "id": "SOBBA6A"
     },
     {
-      "name": "Labina",
-      "photo": "https://cdn-icons-png.flaticon.com/512/146/146031.png",
+      "name": "Levy",
+      "photo": "https://cdn-icons-png.flaticon.com/512/145/145867.png",
       "email": "lbn@myadress.com",
       "company": "Full Stack & Co",
       "title": "UX/UI Designer",
-      "groupId": "1",
+      "groupId": "3",
       "mobile": 708091002,
       "id": "5WYEHv9"
     },
