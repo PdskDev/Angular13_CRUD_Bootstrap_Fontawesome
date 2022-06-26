@@ -39,6 +39,16 @@
       "groupId": "1",
       "mobile": 708091002,
       "id": "5WYEHv9"
+    },
+    {
+      "groupId": "3",
+      "name": "Bouésso",
+      "photo": "https://i.pinimg.com/originals/55/09/d4/5509d42a7231fa57683cdd7d6ab431ae.png",
+      "email": "bwso@bwso.com",
+      "mobile": "0102030405",
+      "company": "Bwso Ltd",
+      "title": "Sales manager",
+      "id": "brZ6emN"
     }
   ],
   "groups": [

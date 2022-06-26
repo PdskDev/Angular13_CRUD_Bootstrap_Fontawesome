@@ -9,7 +9,7 @@ import { ContactService } from 'src/app/services/contact.service';
 })
 export class ContactManagerComponent implements OnInit {
   public loading: boolean = false;
-  public contacts: IContact[] = [];
+  public contacts: IContact[] = [] as IContact[];
   public errorMessage: string | null = null;
 
   constructor(private contactService: ContactService) {}
