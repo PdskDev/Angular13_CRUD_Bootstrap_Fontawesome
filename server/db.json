@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdWnHI",
+      "name": "Brad Gibson Jr",
+      "company": "UX Startup",
+      "email": "brad@gmail.com",
+      "title": "Lead ",
+      "mobile": 9876546789,
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": "5"
+    },
+    {
+      "id": "TVobxeKbI",
+      "name": "Glenda Kimberley",
+      "company": "Restaurant.com",
+      "email": "kimglen@gmail.com",
+      "title": "CEO",
+      "mobile": 102030405,
+      "photo": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
+      "groupId": "6"
+    },
+    {
+      "name": "Nadet LAMBI",
+      "photo": "https://www.kindpng.com/picc/m/130-1300251_flat-user-icon-flat-user-icon-png-transparent.png",
+      "email": "email@myemail.net",
+      "company": "NadetDev part of Prestadesk",
+      "title": "Full stack Leader",
+      "groupId": "1",
+      "mobile": 516050502,
+      "id": "SOBBA6A"
+    },
+    {
+      "name": "Labina",
+      "photo": "https://cdn-icons-png.flaticon.com/512/146/146031.png",
+      "email": "lbn@myadress.com",
+      "company": "Full Stack & Co",
+      "title": "UX/UI Designer",
+      "groupId": "1",
+      "mobile": 708091002,
+      "id": "5WYEHv9"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
