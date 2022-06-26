@@ -39,30 +39,40 @@
     </div>
   </div>
 </div>
+<!--Loading spinner-->
+<div *ngIf="loading">
+  <app-spinner></app-spinner>
+</div>
+<!-- Error message-->
+<div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{ errorMessage }}</p>
+      </div>
+    </div>
+  </div>
+</div>
 <!--Cards-->
-<div class="container mt-3">
+<div class="container mt-3" *ngIf="!loading && contacts.length > 0">
   <div class="row">
-    <div class="col-md-6">
-      <div class="card list-group-item-danger shadow-lg">
+    <div class="col-md-6" *ngFor="let contact of contacts">
+      <div class="card list-group-item-danger shadow-lg my-2">
         <div class="card-body">
           <div class="row align-items-center">
             <div class="col-sm-4">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/219/219969.png"
-                alt=""
-                class="contact-img"
-              />
+              <img [src]="contact.photo" alt="" class="contact-img" />
             </div>
             <div class="col-sm-7">
               <ul>
                 <li class="list-group-item">
-                  Name: <span class="fw-bold">Name</span>
+                  Name: <span class="fw-bold">{{ contact.name }}</span>
                 </li>
                 <li class="list-group-item">
-                  Email: <span class="fw-bold">Email</span>
+                  Email: <span class="fw-bold">{{ contact.email }}</span>
                 </li>
                 <li class="list-group-item">
-                  Mobile: <span class="fw-bold">Mobile</span>
+                  Mobile: <span class="fw-bold">{{ contact.mobile }}</span>
                 </li>
               </ul>
             </div>
@@ -70,12 +80,12 @@
               class="col-sm-1 d-flex flex-column align-items-center justify-content-center"
             >
               <a
-                routerLink="/contacts/view/:contactId"
+                routerLink="/contacts/view/{{ contact.id }}"
                 class="btn btn-warning my-1"
                 ><i class="fa fa-eye"></i
               ></a>
               <a
-                routerLink="/contacts/edit/:contactId"
+                routerLink="/contacts/edit/{{ contact.id }}"
                 class="btn btn-primary my-1"
                 ><i class="fa fa-pen"></i
               ></a>

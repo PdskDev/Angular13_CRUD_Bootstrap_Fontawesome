@@ -14,3 +14,7 @@ body {
   width: 200px;
   border-radius: 50%;
 }
+
+.spinner-img {
+  width: 60px;
+}
